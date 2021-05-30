@@ -3,6 +3,7 @@ application:
   name: "nodedemo"
   project: "nodedemo"
   organization: "QoveryCommunity"
+  port: 8080
 databases:
 - type: "MONGODB"
   name: "dbdemo"
