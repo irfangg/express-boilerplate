@@ -1,0 +1,15 @@
+---
+application:
+  name: "nodedemo"
+  project: "nodedemo"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "dbdemo"
+  version: "4.4"
+routers:
+- name: "main-nodedemo"
+  routes:
+  - application_name: "nodedemo"
+    paths:
+    - "/*"
